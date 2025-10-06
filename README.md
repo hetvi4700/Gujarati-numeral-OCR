@@ -48,30 +48,39 @@ Input Image → Preprocessing → Feature Extraction (VGG16, VGG19, ResNet50, In
 | **Proposed Model** | **99.68%** | **99.69%** | **99.68%** | **99.68%** |
 
 ---
-
 ### 🔍 Confusion Matrix
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/acef1e12-4845-4689-9fad-fbaead9e7c15" width="60%" alt="Confusion Matrix"/>
 </p>
+
 ---
 
-## ⚙️ Installation & Usage
+### ⚙️ Installation & Usage
 
-### Clone the repository
-
-```bash
-git clone https://github.com/yourusername/gujarati-numeral-ocr.git
+**1️⃣ Clone the Repository**
+git clone https://github.com/hetvi4700/gujarati-numeral-ocr.git
 cd gujarati-numeral-ocr
-```
 
-### Feature extraction
+**2️⃣ Training**
 
-Run the vgg19, vgg16, inceptionv3 and resnet ipynb files.
+Run the following Jupyter notebooks individually to extract features from each CNN model:
 
-### Feature fusion, Classification and Testing
+vgg16.ipynb
+vgg19.ipynb
+inceptionv3.ipynb
+resnet50.ipynb
 
-Run classification.ipynb.
+These notebooks generate feature vectors for the dataset using pre-trained models.
+
+**3️⃣ Feature Fusion, Classification & Testing**
+
+After extracting all features, run the classification notebook:
+
+classification.ipynb
+
+
+This notebook performs feature fusion, trains the XGBoost classifier, and evaluates the final model performance on the test dataset.
 
 ---
 
