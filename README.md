@@ -67,10 +67,10 @@ cd gujarati-numeral-ocr
 
 Run the following Jupyter notebooks individually to extract features from each CNN model:
 
-**-vgg16.ipynb**
-**-vgg19.ipynb**
-**-inceptionv3.ipynb**
-**-resnet50.ipynb**
+**vgg16.ipynb**
+**vgg19.ipynb**
+**inceptionv3.ipynb**
+**resnet.ipynb**
 
 These notebooks generate feature vectors for the dataset using pre-trained models.
 
@@ -78,7 +78,7 @@ These notebooks generate feature vectors for the dataset using pre-trained model
 
 After extracting all features, run the classification notebook:
 
-**-classification.ipynb**
+**classification.ipynb**
 
 This notebook performs feature fusion, trains the XGBoost classifier, and evaluates the final model performance on the test dataset.
 
