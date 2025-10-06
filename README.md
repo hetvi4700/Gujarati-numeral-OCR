@@ -52,7 +52,7 @@ Input Image → Preprocessing → Feature Extraction (VGG16, VGG19, ResNet50, In
 ### 🔍 Confusion Matrix
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4a8746a5-8258-4ffe-a6e1-b5042c6631d7" width="60%" alt="Confusion Matrix"/>
+  <img src="https://github.com/user-attachments/assets/acef1e12-4845-4689-9fad-fbaead9e7c15" width="60%" alt="Confusion Matrix"/>
 </p>
 ---
 
