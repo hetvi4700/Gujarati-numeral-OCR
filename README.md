@@ -32,7 +32,6 @@ Input Image → Preprocessing → Feature Extraction (VGG16, VGG19, ResNet50, In
 → Feature Fusion → XGBoost Classifier → Output (Predicted Digit)
 ```
 
-🖼️ 
 <img width="621" height="535" alt="image" src="https://github.com/user-attachments/assets/32b191e1-29bb-4aef-bd6e-55032390d175" />
 
 
@@ -42,10 +41,13 @@ Input Image → Preprocessing → Feature Extraction (VGG16, VGG19, ResNet50, In
 
 <img width="906" height="340" alt="image" src="https://github.com/user-attachments/assets/dd007d53-fcb0-40ed-a473-6490b1a87781" />
 
-🖼️ *Optional:* Include training accuracy/loss curve or confusion matrix
-<img width="428" height="342" alt="image" src="https://github.com/user-attachments/assets/7499877d-ee79-4362-99fd-c22a655e0b35" />
-<img width="435" height="319" alt="image" src="https://github.com/user-attachments/assets/4a8746a5-8258-4ffe-a6e1-b5042c6631d7" />
-<img width="419" height="367" alt="image" src="https://github.com/user-attachments/assets/1b50fd96-3af4-445e-8cfd-9df62f153c40" />
+*Optional:* Include training accuracy/loss curve or confusion matrix
+Accuracy Vs Epoch 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/7499877d-ee79-4362-99fd-c22a655e0b35" />
+Loss Vs Epoch 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/4a8746a5-8258-4ffe-a6e1-b5042c6631d7" />
+Confusion Matrix 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/1b50fd96-3af4-445e-8cfd-9df62f153c40" />
 
 
 
@@ -61,23 +63,13 @@ git clone https://github.com/yourusername/gujarati-numeral-ocr.git
 cd gujarati-numeral-ocr
 ```
 
-### Install dependencies
+### Feature extraction
 
-```bash
-pip install -r requirements.txt
-```
+Run the vgg19, vgg16, inceptionv3 and resnet ipynb files.
 
-### Train the model
+### Feature fusion, Classification and Testing
 
-```bash
-python train_model.py
-```
-
-### Test the model
-
-```bash
-python test_model.py
-```
+Run classification.ipynb.
 
 ---
 
@@ -94,10 +86,10 @@ python test_model.py
 
 ## 📚 Research Paper
 
-📄 **Paper Title:** *Gujarati Handwritten Digit Recognition using Ensemble Learning with Deep Learning-based Feature Fusion*
-📍 *Accepted at the 8th International Conference on Electronics, Communication and Aerospace Technology (ICECA 2024)*
+📄 **Paper Title:** *Handwritten Digit Recognition using Ensemble Learning with Deep Learning-based Feature Fusion*
+📍*2024 8th International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC), Kirtipur, Nepal, 2024*
 
-🔗 **Link:** [To be updated upon publication]
+🔗 **Link:** https://ieeexplore.ieee.org/document/10714854/
 
 ---
 
@@ -112,12 +104,17 @@ Special thanks to **Parth Goel Sir**, **Hitwanshi Dalsania**, and **Arjav Ankoli
 If you use this work, please cite:
 
 ```bibtex
-@inproceedings{bhadani2024gujarati,
-  title={Gujarati Handwritten Digit Recognition using Ensemble Learning with Deep Learning-based Feature Fusion},
-  author={Hetvi Bhadani and Hitwanshi Dalsania and Arjav Ankoliya and Parth Goel},
-  booktitle={8th International Conference on Electronics, Communication and Aerospace Technology (ICECA 2024)},
-  year={2024}
-}
+@INPROCEEDINGS{10714854,
+  author={Ankoliya, Arjav and Bhadani, Hetvi and Dalsania, Hitwanshi and Goel, Parth},
+  booktitle={2024 8th International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)}, 
+  title={Handwritten Digit Recognition using Ensemble Learning with Deep Learning-based Feature Fusion}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1961-1966},
+  keywords={Deep learning;Handwriting recognition;Analytical models;Accuracy;Writing;Linguistics;Feature extraction;Ensemble learning;Residual neural networks;Testing;Gujrati handwritten digits;classification;pre-trained CNN networks;ensemble learning;deep learning},
+  doi={10.1109/I-SMAC61858.2024.10714854}}
+
 ```
 
 ---
