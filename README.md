@@ -38,15 +38,13 @@ Input Image → Preprocessing → Feature Extraction (VGG16, VGG19, ResNet50, In
 ---
 
 ## 🖼️  Results
-
-<img width="906" height="340" alt="image" src="https://github.com/user-attachments/assets/dd007d53-fcb0-40ed-a473-6490b1a87781" />
-
-*Optional:* Include training accuracy/loss curve or confusion matrix
-Accuracy Vs Epoch 
+**Accuracy**
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/dd007d53-fcb0-40ed-a473-6490b1a87781" />
+**Accuracy Vs Epoch**
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/7499877d-ee79-4362-99fd-c22a655e0b35" />
-Loss Vs Epoch 
+**Loss Vs Epoch**
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/4a8746a5-8258-4ffe-a6e1-b5042c6631d7" />
-Confusion Matrix 
+**Confusion Matrix** 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/1b50fd96-3af4-445e-8cfd-9df62f153c40" />
 
 
