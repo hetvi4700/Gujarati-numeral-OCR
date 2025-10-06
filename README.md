@@ -32,7 +32,7 @@ Input Image → Preprocessing → Feature Extraction (VGG16, VGG19, ResNet50, In
 → Feature Fusion → XGBoost Classifier → Output (Predicted Digit)
 ```
 
-<img width="621" height="535" alt="image" src="https://github.com/user-attachments/assets/32b191e1-29bb-4aef-bd6e-55032390d175" />
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/32b191e1-29bb-4aef-bd6e-55032390d175" />
 
 
 ---
@@ -51,7 +51,7 @@ Input Image → Preprocessing → Feature Extraction (VGG16, VGG19, ResNet50, In
 ### 🔍 Confusion Matrix
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/acef1e12-4845-4689-9fad-fbaead9e7c15" width="60%" alt="Confusion Matrix"/>
+  <img src="https://github.com/user-attachments/assets/acef1e12-4845-4689-9fad-fbaead9e7c15" width="45%" alt="Confusion Matrix"/>
 </p>
 
 ---
@@ -59,17 +59,18 @@ Input Image → Preprocessing → Feature Extraction (VGG16, VGG19, ResNet50, In
 ### ⚙️ Installation & Usage
 
 **1️⃣ Clone the Repository**
+```bash
 git clone https://github.com/hetvi4700/gujarati-numeral-ocr.git
 cd gujarati-numeral-ocr
-
+```
 **2️⃣ Training**
 
 Run the following Jupyter notebooks individually to extract features from each CNN model:
 
-vgg16.ipynb
-vgg19.ipynb
-inceptionv3.ipynb
-resnet50.ipynb
+**-vgg16.ipynb**
+**-vgg19.ipynb**
+**-inceptionv3.ipynb**
+**-resnet50.ipynb**
 
 These notebooks generate feature vectors for the dataset using pre-trained models.
 
@@ -77,8 +78,7 @@ These notebooks generate feature vectors for the dataset using pre-trained model
 
 After extracting all features, run the classification notebook:
 
-classification.ipynb
-
+**-classification.ipynb**
 
 This notebook performs feature fusion, trains the XGBoost classifier, and evaluates the final model performance on the test dataset.
 
@@ -134,6 +134,6 @@ If you use this work, please cite:
 
 **Hetvi Bhadani**
 📧 [hetvi.bhadani47000@gmail.com](mailto:hetvi.bhadani47000@gmail.com)
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+🔗 [LinkedIn](https://www.linkedin.com/in/hetvi-bhadani) | [GitHub](https://github.com/hetvi4700)
 
 ---
